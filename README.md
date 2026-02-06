@@ -142,7 +142,18 @@ Los datos abiertos permiten generar valor real mediante análisis estructurado
 
 Análisis de costos por proveedor
 
-Migración del análisis a SQL
+Migración del análisis a SQL:
+## 🗄️ Análisis en SQL
+
+El dataset limpio fue exportado desde Python y cargado en una base de datos SQLite.
+Se realizaron consultas SQL para replicar y validar los resultados obtenidos en el análisis exploratorio.
+
+Consultas realizadas:
+- Conteo total de registros
+- Distribución por categoría de herramienta
+- Total de licencias por categoría
+- Estado de licencias
+- Top softwares con mayor número de licencias
 
 Creación de dashboard en Power BI / Tableau
 
